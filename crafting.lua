@@ -1,20 +1,18 @@
- ------------Crafting 
- ----This is a sample file of what you will need in your mod that uses this phonics_lib libary.
- --[[
+------------Crafting
 minetest.register_craft({
 	output = "default:apple",
 	recipe = {
-		{"spanish:m", "spanish:a", "spanish:n"},
-		{"spanish:z", "spanish:a","spanish:n"},
-		{"spanish:a","" ,""},
+		{"phonics_tsalagi:a", "phonics_tsalagi:p", "phonics_tsalagi:0p"},
+		{"phonics_tsalagi:l", "phonics_tsalagi:0e",""},
+		{"","" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "default:axe_steel",
 	recipe = {
-		{"spanish:h", "spanish:a", "spanish:ch"},
-		{"spanish:a", "",""},
+		{"phonics_tsalagi:a", "phonics_tsalagi:x", "phonics_tsalagi:0e"},
+		{"", "",""},
 		{"","" ,""},
 	}
 })
@@ -22,8 +20,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "beds:bed_bottom 4",
 	recipe = {
-		{"spanish:c", "spanish:a", "spanish:m"},
-		{"spanish:a", "",""},
+		{"phonics_tsalagi:b", "phonics_tsalagi:e", "phonics_tsalagi:d"},
+		{"", "",""},
 		{"","" ,""},
 	}
 })
@@ -31,17 +29,17 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "beds:fancy_bed_bottom 4",
 	recipe = {
-		{"beds:bed_bottom", "spanish:e","spanish:l"},
-		{"spanish:e","spanish:g" ,"spanish:a"},
-		{"spanish:n", "spanish:t", "spanish:e"},
+		{"phonics_tsalagi:f","phonics_tsalagi:a" ,"phonics_tsalagi:n"},
+		{"phonics_tsalagi:s", "phonics_tsalagi:_e",""},
+		{"phonics_tsalagi:b", "phonics_tsalagi:e", "phonics_tsalagi:d"},
 	}
 })
 
 minetest.register_craft({
-	output = "boats:boat 3",
+	output = "boats:boat 2",
 	recipe = {
-		{"spanish:b", "spanish:o", "spanish:t"},
-		{"spanish:e", "",""},
+		{"phonics_tsalagi:b", "phonics_tsalagi:_o", "phonics_tsalagi:0a"},
+		{"phonics_tsalagi:t", "",""},
 		{"","" ,""},
 	}
 })
@@ -49,8 +47,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "bucket:bucket_empty 2",
 	recipe = {
-		{"spanish:b", "spanish:a", "spanish:l"},
-		{"spanish:d", "spanish:e",""},
+		{"phonics_tsalagi:b", "phonics_tsalagi:u", "phonics_tsalagi:c"},
+		{"phonics_tsalagi:0k", "phonics_tsalagi:e","phonics_tsalagi:t"},
 		{"","" ,""},
 	}
 })
@@ -58,8 +56,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "carts:cart 3",
 	recipe = {
-		{"spanish:c", "spanish:a", "spanish:rr"},
-		{"spanish:o", "",""},
+		{"phonics_tsalagi:c", "phonics_tsalagi:ar", "phonics_tsalagi:t"},
+		{"", "",""},
 		{"","" ,""},
 	}
 })
@@ -67,8 +65,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:chest 3",
 	recipe = {
-		{"spanish:c", "spanish:o", "spanish:f"},
-		{"spanish:r", "spanish:e",""},
+		{"phonics_tsalagi:ch", "phonics_tsalagi:e", "phonics_tsalagi:s"},
+		{"phonics_tsalagi:t", "",""},
 		{"","" ,""},
 	}
 })
@@ -76,8 +74,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:coal_lump 10",
 	recipe = {
-		{"spanish:c", "spanish:a", "spanish:r"},
-		{"spanish:b", "spanish:o","spanish:n"},
+		{"phonics_tsalagi:c", "phonics_tsalagi:_o", "phonics_tsalagi:0a"},
+		{"phonics_tsalagi:l", "",""},
 		{"","" ,""},
 	}
 })
@@ -85,17 +83,17 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:dirt 49",
 	recipe = {
-		{"spanish:s", "spanish:u", "spanish:c"},
-		{"spanish:i", "spanish:e","spanish:d"},
-		{"spanish:a","spanish:d" ,""},
+		{"phonics_tsalagi:d", "phonics_tsalagi:er", "phonics_tsalagi:t"},
+		{"", "",""},
+		{"","" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "doors:door_wood 15",
 	recipe = {
-		{"spanish:p", "spanish:u", "spanish:e"},
-		{"spanish:r", "spanish:t","spanish:a"},
+		{"phonics_tsalagi:d", "phonics_tsalagi:_o", "phonics_tsalagi:0o"},
+		{"phonics_tsalagi:r", "",""},
 		{"","" ,""},
 	}
 })
@@ -103,26 +101,26 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "doors:door_steel 15",
 	recipe = {
-		{"doors:door_wood", "spanish:d", "spanish:e"},
-		{"","spanish:a" ,"spanish:c"},
-		{"spanish:e", "spanish:r","spanish:o"},
+		{"phonics_tsalagi:s", "phonics_tsalagi:t", "phonics_tsalagi:_e"},
+		{"phonics_tsalagi:0e", "phonics_tsalagi:l", "phonics_tsalagi:d"},
+		{"phonics_tsalagi:_o", "phonics_tsalagi:0o","phonics_tsalagi:r"},
 	}
 })
 
 minetest.register_craft({
 	output = "doors:door_glass 15",
 	recipe = {
-		{"doors:door_wood", "spanish:c", "spanish:r"},
-		{"spanish:i","spanish:s" ,"spanish:t"},
-		{"spanish:a","spanish:l" ,""},
+		{"phonics_tsalagi:g", "phonics_tsalagi:l", "phonics_tsalagi:a"},
+		{"phonics_tsalagi:s", "phonics_tsalagi:0s", "phonics_tsalagi:d"},
+		{"phonics_tsalagi:_o", "phonics_tsalagi:0o","phonics_tsalagi:r"},
 	}
 })
 
 minetest.register_craft({
 	output = "dye:black 10",
 	recipe = {
-		{"spanish:n", "spanish:e", "spanish:g"},
-		{"spanish:r", "spanish:o",""},
+		{"phonics_tsalagi:b", "phonics_tsalagi:l", "phonics_tsalagi:a"},
+		{"phonics_tsalagi:c", "phonics_tsalagi:0k",""},
 		{"","" ,""},
 	}
 })
@@ -130,8 +128,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:blue 10",
 	recipe = {
-		{"spanish:a", "spanish:z", "spanish:u"},
-		{"spanish:l", "",""},
+		{"phonics_tsalagi:b", "phonics_tsalagi:l", "phonics_tsalagi:_oo"},
+		{"", "",""},
 		{"","" ,""},
 	}
 })
@@ -139,8 +137,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:brown 10",
 	recipe = {
-		{"spanish:m", "spanish:a", "spanish:rr"},
-		{"spanish:o", "spanish:n",""},
+		{"phonics_tsalagi:b", "phonics_tsalagi:r", "phonics_tsalagi:ou"},
+		{"phonics_tsalagi:n", "",""},
 		{"","" ,""},
 	}
 })
@@ -148,8 +146,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:cyan 10",
 	recipe = {
-		{"spanish:c", "spanish:i", "spanish:a"},
-		{"spanish:n", "",""},
+		{"phonics_tsalagi:s", "phonics_tsalagi:_i", "phonics_tsalagi:a"},
+		{"phonics_tsalagi:n", "",""},
 		{"","" ,""},
 	}
 })
@@ -157,26 +155,26 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:dark_green 10",
 	recipe = {
-		{"dye:green", "spanish:o", "spanish:s"},
-		{"spanish:c", "spanish:u","spanish:r"},
-		{"spanish:o","" ,""},
+		{"phonics_tsalagi:d", "phonics_tsalagi:ar", "phonics_tsalagi:k"},
+		{"", "phonics_tsalagi:g","phonics_tsalagi:r"},
+		{"phonics_tsalagi:_e","phonics_tsalagi:0e" ,"phonics_tsalagi:n"},
 	}
 })
 
 minetest.register_craft({
 	output = "dye:dark_grey 10",
 	recipe = {
-		{"dye:grey", "spanish:o", "spanish:s"},
-		{"spanish:c", "spanish:u","spanish:r"},
-		{"spanish:o","" ,""},
+		{"phonics_tsalagi:d", "phonics_tsalagi:ar", "phonics_tsalagi:k"},
+		{"", "phonics_tsalagi:g","phonics_tsalagi:r"},
+		{"phonics_tsalagi:_a","phonics_tsalagi:0y" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "dye:green 10",
 	recipe = {
-		{"spanish:v", "spanish:e", "spanish:r"},
-		{"spanish:d", "spanish:e",""},
+		{"phonics_tsalagi:g", "phonics_tsalagi:r", "phonics_tsalagi:_e"},
+		{"phonics_tsalagi:0e", "phonics_tsalagi:n",""},
 		{"","" ,""},
 	}
 })
@@ -184,8 +182,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:grey 10",
 	recipe = {
-		{"spanish:g", "spanish:r", "spanish:i"},
-		{"spanish:s", "",""},
+		{"phonics_tsalagi:g", "phonics_tsalagi:r", "phonics_tsalagi:_a"},
+		{"phonics_tsalagi:0y", "",""},
 		{"","" ,""},
 	}
 })
@@ -193,26 +191,26 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:magenta 10",
 	recipe = {
-		{"spanish:m", "spanish:a", "spanish:g"},
-		{"spanish:e", "spanish:n","spanish:t"},
-		{"spanish:a","" ,""},
+		{"phonics_tsalagi:m", "phonics_tsalagi:u", "phonics_tsalagi:j"},
+		{"phonics_tsalagi:e", "phonics_tsalagi:n","phonics_tsalagi:t"},
+		{"phonics_tsalagi:u","" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "dye:orange 10",
 	recipe = {
-		{"spanish:n", "spanish:a", "spanish:r"},
-		{"spanish:a", "spanish:n","spanish:j"},
-		{"spanish:a","" ,""},
+		{"phonics_tsalagi:_o", "phonics_tsalagi:r", "phonics_tsalagi:a"},
+		{"phonics_tsalagi:n", "phonics_tsalagi:j","phonics_tsalagi:0e"},
+		{"","" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "dye:pink 10",
 	recipe = {
-		{"spanish:r", "spanish:o", "spanish:s"},
-		{"spanish:a", "",""},
+		{"phonics_tsalagi:p", "phonics_tsalagi:i", "phonics_tsalagi:n"},
+		{"phonics_tsalagi:k", "",""},
 		{"","" ,""},
 	}
 })
@@ -220,8 +218,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:red 10",
 	recipe = {
-		{"spanish:r", "spanish:o", "spanish:j"},
-		{"spanish:o", "",""},
+		{"phonics_tsalagi:r", "phonics_tsalagi:e", "phonics_tsalagi:d"},
+		{"", "",""},
 		{"","" ,""},
 	}
 })
@@ -229,17 +227,17 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:violet 10",
 	recipe = {
-		{"spanish:v", "spanish:i", "spanish:o"},
-		{"spanish:l", "spanish:e","spanish:t"},
-		{"spanish:a","" ,""},
+		{"phonics_tsalagi:v", "phonics_tsalagi:_i", "phonics_tsalagi:_o"},
+		{"phonics_tsalagi:l", "phonics_tsalagi:e","phonics_tsalagi:t"},
+		{"","" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "dye:white 10",
 	recipe = {
-		{"spanish:b", "spanish:l", "spanish:a"},
-		{"spanish:n", "spanish:c","spanish:o"},
+		{"phonics_tsalagi:w", "phonics_tsalagi:0h", "phonics_tsalagi:_i"},
+		{"phonics_tsalagi:t", "phonics_tsalagi:0e",""},
 		{"","" ,""},
 	}
 })
@@ -247,9 +245,9 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "dye:yellow 10",
 	recipe = {
-		{"spanish:a", "spanish:m", "spanish:a"},
-		{"spanish:r", "spanish:i","spanish:ll"},
-		{"spanish:o","" ,""},
+		{"phonics_tsalagi:y", "phonics_tsalagi:e", "phonics_tsalagi:l"},
+		{"phonics_tsalagi:0l", "phonics_tsalagi:_o","phonics_tsalagi:0w"},
+		{"","" ,""},
 	}
 })
 
@@ -257,8 +255,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:fence_wood 33",
 	recipe = {
-		{"spanish:c", "spanish:e", "spanish:r"},
-		{"spanish:k", "spanish:a",""},
+		{"phonics_tsalagi:f", "phonics_tsalagi:e", "phonics_tsalagi:n"},
+		{"phonics_tsalagi:s", "phonics_tsalagi:0e",""},
 		{"","" ,""},
 	}
 })
@@ -266,8 +264,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "doors:gate_wood 10",
 	recipe = {
-		{"spanish:r", "spanish:e", "spanish:j"},
-		{"spanish:a", "",""},
+		{"phonics_tsalagi:g", "phonics_tsalagi:_a", "phonics_tsalagi:t"},
+		{"phonics_tsalagi:0e", "",""},
 		{"","" ,""},
 	}
 })
@@ -275,26 +273,26 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:glass 33",
 	recipe = {
-		{"spanish:c", "spanish:r", "spanish:i"},
-		{"spanish:s", "spanish:t","spanish:a"},
-		{"spanish:l","" ,""},
+		{"phonics_tsalagi:g", "phonics_tsalagi:l", "phonics_tsalagi:a"},
+		{"phonics_tsalagi:s", "phonics_tsalagi:0s",""},
+		{"","" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "default:ladder 9",
 	recipe = {
-		{"spanish:e", "spanish:s", "spanish:k"},
-		{"spanish:a", "spanish:l","spanish:e"},
-		{"spanish:r","spanish:a" ,""},
+		{"phonics_tsalagi:l", "phonics_tsalagi:a", "phonics_tsalagi:d"},
+		{"phonics_tsalagi:0d", "phonics_tsalagi:er",""},
+		{"","" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "default:pick_steel",
 	recipe = {
-		{"spanish:p", "spanish:i", "spanish:k"},
-		{"spanish:o", "",""},
+		{"phonics_tsalagi:p", "phonics_tsalagi:i", "phonics_tsalagi:c"},
+		{"phonics_tsalagi:0k", "",""},
 		{"","" ,""},
 	}
 })
@@ -303,8 +301,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:pine_tree 10",
 	recipe = {
-		{"spanish:p", "spanish:i", "spanish:_n"},
-		{"spanish:o", "",""},
+		{"phonics_tsalagi:p", "phonics_tsalagi:_i", "phonics_tsalagi:n"},
+		{"phonics_tsalagi:0e", "",""},
 		{"","" ,""},
 	}
 })
@@ -312,8 +310,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "carts:rail 20",
 	recipe = {
-		{"spanish:c", "spanish:a", "spanish:rr"},
-		{"spanish:i", "spanish:l",""},
+		{"phonics_tsalagi:r", "phonics_tsalagi:_a", "phonics_tsalagi:0i"},
+		{"phonics_tsalagi:l", "",""},
 		{"","" ,""},
 	}
 })
@@ -321,8 +319,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:shovel_steel",
 	recipe = {
-		{"spanish:p", "spanish:a", "spanish:l"},
-		{"spanish:a", "",""},
+		{"phonics_tsalagi:sh", "phonics_tsalagi:u", "phonics_tsalagi:v"},
+		{"phonics_tsalagi:0e", "phonics_tsalagi:l",""},
 		{"","" ,""},
 	}
 })
@@ -330,8 +328,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:stick 49",
 	recipe = {
-		{"spanish:p", "spanish:a", "spanish:l"},
-		{"spanish:o", "",""},
+		{"phonics_tsalagi:s", "phonics_tsalagi:t", "phonics_tsalagi:i"},
+		{"phonics_tsalagi:c", "phonics_tsalagi:0k",""},
 		{"","" ,""},
 	}
 })
@@ -339,8 +337,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:stone 49",
 	recipe = {
-		{"spanish:p", "spanish:i", "spanish:e"},
-		{"spanish:d", "spanish:r","spanish:a"},
+		{"phonics_tsalagi:s", "phonics_tsalagi:t", "phonics_tsalagi:_o"},
+		{"phonics_tsalagi:n", "phonics_tsalagi:0e",""},
 		{"","" ,""},
 	}
 })
@@ -348,8 +346,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:sword_steel",
 	recipe = {
-		{"spanish:e", "spanish:s", "spanish:p"},
-		{"spanish:a", "spanish:d","spanish:a"},
+		{"phonics_tsalagi:s", "phonics_tsalagi:0w", "phonics_tsalagi:_o"},
+		{"phonics_tsalagi:r", "phonics_tsalagi:d",""},
 		{"","" ,""},
 	}
 })
@@ -357,8 +355,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:apple_tree 10",
 	recipe = {
-		{"spanish:a", "spanish:r", "spanish:b"},
-		{"spanish:o", "spanish:l",""},
+		{"phonics_tsalagi:t", "phonics_tsalagi:r", "phonics_tsalagi:_e"},
+		{"phonics_tsalagi:0e", "",""},
 		{"","" ,""},
 	}
 })
@@ -366,22 +364,22 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "default:torch 20",
 	recipe = {
-		{"spanish:a", "spanish:n", "spanish:t"},
-		{"spanish:o", "spanish:r","spanish:ch"},
-		{"spanish:a","" ,""},
+		{"phonics_tsalagi:t", "phonics_tsalagi:_o", "phonics_tsalagi:r"},
+		{"phonics_tsalagi:ch", "",""},
+		{"","" ,""},
 	}
 })
 
 minetest.register_craft({
 	output = "wool:white 30",
 	recipe = {
-		{"spanish:l", "spanish:a", "spanish:n"},
-		{"spanish:a", "",""},
+		{"phonics_tsalagi:w", "phonics_tsalagi:oo", "phonics_tsalagi:l"},
+		{"", "",""},
 		{"","" ,""},
 	}
 })
 
-]]
+
 
 
 
