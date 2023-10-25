@@ -93,7 +93,7 @@ phonics = {
 	yv={name="yv", length=.90, gain=1, is_letter=0},
 }
 	
-two_char_phonics_tsalagi = {
+two_char_phonics = {
 	ga= {name="ga"},
 	ka= {name="ka"},
 	ge= {name="ge"},
@@ -154,7 +154,7 @@ two_char_phonics_tsalagi = {
 	--wh= {name="wh"}	
 }
 
-three_char_phonics_tsalagi = {
+three_char_phonics = {
 	hna= {name="hna"},
 	nah= {name="nah"},
 	qua= {name="qua"},
