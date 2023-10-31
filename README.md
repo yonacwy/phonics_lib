@@ -22,10 +22,55 @@ This is a mod all credits go to Neuromancer for the original mod.
 
 Added textures using the unicode tsalagi font and sound by a native speaker western dialect.
 
-Update:
-
-After you have created pages open command type in latin "/gowelodi tsalagi" and it puts the syllabary textures on the blocks "ᏣᎳᎩ"
+Create Pages: After you have created pages from above instruction type in latin "/gowelodi tsalagi" and it puts the syllabary textures on the blocks "ᏣᎳᎩ"
 The command to write is "/gowelodi" in place of "/write"
+
+Update: Added some crafting recipes to crafting.lua. Not exhaustive by no means just a sample to work from.
+
+apple
+ᏒᎦᏔ 
+svgata
+ 
+stick
+ᎦᎾᏍᏓ
+ganasda
+
+stone
+ᏅᏯ
+nvya 
+
+axe
+ᎦᎷᏯᏍᏗ
+galuyasdi
+  
+torch
+ᎠᏨᏍᏓᏙᏗ
+atsvsdadodi 
+
+boat
+ᏥᏳ
+tsiyu
+
+dirt
+ᎦᏓ
+gada
+
+door_wood
+ᎠᏍᏚᏗ ᎠᏓ
+asdudi ada
+
+glass
+ᎠᏓᎨᏗ
+adagedi
+
+pine tree
+ᏃᏥ
+notsi
+
+ladder
+ᎠᏴᏠ
+ayvtlo
+
 
 Todo:
 Still need to add eastern dialect sounds and syllabary
